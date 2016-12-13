@@ -18,7 +18,7 @@ A simple wave ripple effect！
 2. Add the dependency:
 
 		dependencies {
-		        compile 'com.github.li-xiaojun:RippleLayout:1.0.0'
+		        compile 'com.github.li-xiaojun:RippleLayout:1.0.1'
 		}
 
 # Usage
