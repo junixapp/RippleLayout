@@ -102,7 +102,13 @@ public class RippleView extends View {
         animator.start();
     }
 
-
+    @Override
+    protected void onDetachedFromWindow() {
+        super.onDetachedFromWindow();
+        startRadius = 0;
+        endRadius = 0;
+        animator.cancel();
+    }
 
     public void stopRipple() {
         animator.cancel();

@@ -87,5 +87,6 @@ public class RippleLayout extends FrameLayout {
     protected void onDetachedFromWindow() {
         super.onDetachedFromWindow();
         handler.removeCallbacksAndMessages(null);
+        removeAllViews();
     }
 }
